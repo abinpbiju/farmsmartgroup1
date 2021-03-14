@@ -1,0 +1,2451 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/stylemois.css">
+<title>FARMSMART</title>
+</head>
+
+<body class="grey lighten-3"">
+ 
+<!-- NAVBAR -->
+  <nav class=" z-depth-0 grey lighten-4">
+  <div class="nav-wrapper container">
+    <a href="#" class="brand-logo">
+      <img src="img/logo.png" style="width: 130px; margin-top: -25px;">
+    </a>
+    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+      <li class="accountlink" style="display : none;">
+        <a href="#" class="grey-text modal-trigger" data-target="modal-account">Account</a>
+      </li>
+      <li class="grower-console" style="display: none;">
+        <a href="userconsole.html" class="grey-text modal-trigger">Grower Console</a>
+      </li>
+      <li class="logoutlink" style="display : none;">
+        <a href="#" class="grey-text" id="logout">Logout</a>
+      </li>
+
+      <li class="loginlink" style="display : none;">
+        <a href="#" class="grey-text modal-trigger" data-target="modal-login">Login</a>
+      </li>
+      <li class="signuplink" style="display : none;">
+        <a href="#" class="grey-text modal-trigger" data-target="modal-signup">Sign up</a>
+      </li>
+
+    </ul>
+  </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-nav">
+    <li class="accountlink" style="display : none;">
+      <a href="#" class="grey-text modal-trigger" data-target="modal-account">Account</a>
+    </li>
+    <li class="grower-console" style="display: none;">
+      <a href="userconsole.html" class="grey-text modal-trigger">Grower Console</a>
+    </li>
+    <li class="logoutlink" style="display : none;">
+      <a href="#" class="grey-text" id="logout">Logout</a>
+    </li>
+
+    <li class="loginlink" style="display : none;">
+      <a href="#" class="grey-text modal-trigger" data-target="modal-login">Login</a>
+    </li>
+    <li class="signuplink" style="display : none;">
+      <a href="#" class="grey-text modal-trigger" data-target="modal-signup">Sign up</a>
+    </li>
+  </ul>
+
+
+
+
+  <!-- ADMIN ACTIONS - MAKE ADMIN -->
+  <div class="row">
+    <div class="col s12 m6 l4">
+      <div class="card blue-grey darken-1 make-admin" style="display:none;">
+        <div class="card-content white-text">
+
+          <span class="card-title">Add User as Admin</span>
+          <form class="center-align admin-actions-on-admin make-admin" style="margin: 40px auto; max-width: 300px; display: none;">
+            <input type="email" placeholder="   Admin User email" id="admin-email" required />
+            <button class="mdc-icon-button material-icons">how_to_reg</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADMIN ACTIONS - ADD GROWER -->
+    <div class="col s12 m6 l4">
+      <div class="card blue-grey darken-1 add-grower" style="display:none;">
+        <div class="card-content white-text">
+          <span class="card-title">Add User as FarmSmart Grower</span>
+          <form class="center-align admin-actions-on-grower add-grower" style="margin: 40px auto; max-width: 300px; display: none;">
+            <input type="email" placeholder="  Grower email" id="grower-email" required />
+            <button class="mdc-icon-button material-icons">add_circle_outline</button>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADMIN ACTIONS - ADD DEVICE TO GROWER -->
+    <div class="col s12 m6 l4">
+      <div class="card blue-grey darken-1 add-device" style="display:none;">
+        <div class="card-content white-text">
+          <span class="card-title">Add a Device to FarmSmart User</span>
+          <form class="center-align admin-actions-on-adding-device-grower add-device" style="margin: 40px auto; max-width: 300px; display: none;">
+            <input type="email" placeholder="  Grower Email" id="grower-email-for-device-add" required />
+            <input type="text" placeholder="  Device ID of the Above Grower" id="grower-deviceId" required />
+            <button class="mdc-icon-button material-icons">cast_connected</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- SIGN UP MODAL -->
+  <div id="modal-signup" class="modal">
+    <div class="modal-content center-align">
+      <h5>SIGN UP</h5><br />
+      <form id="signup-form">
+        <div class="input-field">
+          <input type="text" id="signup-username" required />
+          <label for="signup-username"> Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="signup-email" required />
+          <label for="signup-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="signup-password" required />
+          <label for="signup-password">Choose password</label>
+        </div>
+        <div class="input-field">
+          <input type="text" id="signup-bio" required />
+          <label for="signup-bio">One Line Bio</label>
+        </div>
+        <div class="input-field">
+          <input type="number" id="signup-phonenumber" required />
+          <label for="signup-phonenumber">Phone Number</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+        <p class="error pink-text center-align"></p>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- LOGIN MODAL -->
+
+  <div id="modal-login" class="modal">
+    <div class="modal-content center-align">
+      <h4>LOGIN</h4><br />
+      <form id="login-form">
+        <div class="row">
+          <div class="input-field">
+            <input type="email" id="login-email" required />
+            <label for="login-email">Email address</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field">
+            <input type="password" id="login-password" required />
+            <label for="login-password">Your password</label>
+
+            <button class="btn yellow darken-2 z-depth-0">Login</button>
+            <p class="error pink-text center-align"></p>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ACCOUNT MODAL -->
+  <div id="modal-account" class="modal">
+    <div class="account-modal-content center-align">
+      <h4>Account Details</h4><br />
+      <div class="account-details">
+      </div>
+    </div>
+  </div>
+
+  
+  <!--LANDING SLIDER-->
+  <div class="slider" style="display:none;" id="landing-slider">
+      <ul class="slides">
+        <li>
+          <img src="img/banner1.jpg"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>Grow Smarter with FarmSmart</h3>
+            <h5 class="light grey-text text-lighten-3">Growing is how We came together</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/banner2.jpg"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Living Labs</h3>
+            <h5 class="light grey-text text-lighten-3">Grown with the Cutting-Edge Cloud Technology </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/veg1.jpg"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>FarmSmart Store</h3>
+            <h5 class="light grey-text text-lighten-3">Healthier & Fresh Vegetables at your FingerTips </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <hr>
+
+  
+  <!--LINK TO PAGE CARDS-->
+    <div class="row cards" style="display:none;">
+      <div class="col s12 m6 l4">
+        <div class="card small hoverable">
+          <div class="card-image">
+            <img src="img/livinglabs.jpg">
+            <span class="card-title" style="background-color: rgba(0, 0, 0, 0.6)" >Living Labs</span>
+            
+          </div>
+          <a class="btn-floating halfway-fab waves-effect waves-light green" href="#farmsmart-livinglabs"><i class="material-icons">add</i></a>
+          <div class="card-content">
+            <p>Our very own farms where our agricultural model is used to produce vegetables for distribution</p>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="col s12 m6 l4">
+        <div class="card small hoverable ">
+          <div class="card-image">
+            <img src="img/store.jpeg">
+            <span class="card-title" style="background-color: rgba(0, 0, 0, 0.6)">Farmsmart Store</span>
+            
+          </div>
+          <a class="btn-floating pulse halfway-fab waves-effect waves-light green" href="#farmsmart-store"><i class="material-icons">add</i></a>
+          <div class="card-content">
+            <p>Online connected store which delivers to you farm-fresh vegetables and herbs growing in your local area.
+            </p>
+          </div>
+        </div>
+      </div>
+   
+
+    <div class="col s12 m6 l4">
+        <div class="card small hoverable">
+          <div class="card-image">
+            <img src="img/farmware.jpg">
+            <span class="card-title" style="background-color: rgba(0, 0, 0, 0.6)">FarmWare</span>
+            </div>
+          <div class="card-content">
+            <p>A device from Farmsmart Labs running entirely backed by Google Cloud Technology with Maximum Scalability and Security </p>
+              <a class="btn-floating halfway-fab waves-effect waves-light green " href="#farmware"><i class="material-icons">add</i></a>
+            </div>
+        </div>
+      </div>
+    </div> 
+    <!--End of the Card--> 
+    <br>
+    <hr>
+
+        <!--FARMSMART LIVING LABS START-->
+    
+        <div id="farmsmart-livinglabs" class="row header" style="display:none;">
+          <div class="col s12 m6 l12">
+           <center><h3>Living Labs</h3></center>
+       </div>
+
+       <div class="col s12 m6 l12">
+        <center><h4><i>Let’s cultivate healthy</i></h4></center>
+        <p align="center">We utilise unused spaces in urban areas like balconies and rooftops to create a cluster of digital farms 
+          <br>connected with you and trained Farmsmart growers in your community.</p>
+    </div>
+    <div>
+      <center>
+    <img class="responsive-img" src="img/greenhouse 1.jpg">
+    <img class="responsive-img" src="img/greenhouse2.jpg">
+  </center>
+    </div>
+    <div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+      <p align="center">Farmsmart farms are connected to the internet to track growth and health. 
+        <br>We use IoT (Internet of Things) and Google Cloud Platform tools to function our 
+        automated model for our customers’ best benefits.</p>
+    </div>
+    <div>
+        <p align="center">Our model is equipped with Temperature Sensors, 
+          <br>Humidity Sensors and Moisture sensors that provide sufficient data for plant predictions.</p>
+      </div>
+    </div>
+    <br>
+    <hr>
+
+    
+    
+    <!--FARMSMART STORE START-->
+    <div id="farmsmart-store" class="row header" style="display:none;">
+      <div class="col s12 m6 l12">
+       <center><h3>Farmsmart Store</h3></center>
+   </div>
+
+   <!--PRODUCT CARDS-->
+   
+   <div class="row cards" style="display:none;"></div>
+   <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/celeri.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Celery<i class="material-icons right">more_vert</i></span>
+            <a class="waves-effect waves-light btn">₹ 50</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Celery<i class="material-icons right">close</i></span>
+            <p>Celery is a marshland plant in the family Apiaceae that has been cultivated as a vegetable since antiquity. Celery has a long fibrous stalk tapering into leaves. Depending on location and cultivar, either its stalks, leaves, or hypocotyl are eaten and used in cooking</p>
+          </div>
+        </div>
+        </div>
+  <div class="col s12 m6 l3">
+  <div class="card small hoverable">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/spinach.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Spinach<i class="material-icons right">more_vert</i></span>
+  
+        <a class="waves-effect waves-light btn">₹ 35</a>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Spinach<i class="material-icons right">close</i></span>
+        <p>Spinach is a superfood. It is loaded with tons of nutrients in a low-calorie package. Dark, leafy greens like spinach are important for skin, hair, and bone health. They also provide protein, iron, vitamins, and minerals.</p>
+      </div>
+    </div>
+    </div>
+    <div class="col s12 m6 l3">
+        <div class="card small hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/lettuce.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Lettuce<i class="material-icons right">more_vert</i></span>
+             
+              <a class="waves-effect waves-light btn">₹ 45</a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Lettuce<i class="material-icons right">close</i></span>
+              <p> Lettuce is most often used for salads, although it is also seen in other kinds of food, such as soups, sandwiches and wraps; it can also be grilled.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col s12 m6 l3">
+              <div class="card small hoverable">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/tulsi.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Tulsi<i class="material-icons right">more_vert</i></span>
+                    
+                    <a class="waves-effect waves-light btn">₹ 45</a>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Tulsi<i class="material-icons right">close</i></span>
+                    <p>Do you Know ? According to the Central Drug Research Institute, Lucknow, India, tulsi can help in maintaining normal levels of the stress hormone – cortisol in the body.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/aleovera.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Aleo Vera<i class="material-icons right">more_vert</i></span>
+                          
+                          <a class="waves-effect waves-light btn">₹ 35</a>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="col s12 m6 l3">
+                          <div class="card small">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/Mint.jpg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Mint Leaves<i class="material-icons right">more_vert</i></span>
+                               
+                                <a class="waves-effect waves-light btn">₹ 45</a>
+
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="col s12 m6 l3">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                      <img class="activator" src="img/amaranth.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                      <span class="card-title activator grey-text text-darken-4">Amaranth<i class="material-icons right">more_vert</i></span>
+                                     
+                                      <a class="waves-effect waves-light btn">₹ 50</a>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    </div>
+                                  </div>
+                                  </div>
+
+                            </div>                        
+                                  <div class="col s12 m6 l3">
+                                      <div class="card small">
+                                          <div class="card-image waves-effect waves-block waves-light">
+                                            <img class="activator" src="img/basil.jpg">
+                                          </div>
+                                          <div class="card-content">
+                                            <span class="card-title activator grey-text text-darken-4">Basil Leaves<i class="material-icons right">more_vert</i></span>
+                                            
+                                            <a class="waves-effect waves-light btn">₹ 25</a>
+                                          <div class="card-reveal">
+                                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                          </div>
+                                        </div>
+                                        </div>
+                                  
+
+
+                                  </div>
+                                  </div>
+
+
+    
+<!--FARMSMART STORE END-->
+<hr>
+  
+      <!--FARMWARE START-->
+      <div id="farmware" class="row header" style="display:none;">
+          <div class="col s12 m6 l12">
+           <center><h3>FARMWARE</h3></center>
+       </div>
+       <p align="center">A device from Farmsmart Labs running 
+         <br>entirely backed by Google Cloud Technology with Maximum Scalability and Security</p>
+         <div>
+            <center>
+          <img class="responsive-img" src="img/benefits-diagram.svg">
+        </center>
+          </div>
+          <i><h4 align="center" class="flow-text">Become a Urban Smart Farmer ! Buy FarmWare Now !</h4></i>
+            <!-- BUY FORM-->
+            <div class="row">
+                <div class="col l12 s12 m6">
+                  <div class="card">
+        <h5 class="center-align" class="flow-text">Custom Build a Farm at 300₹ Per Sq.Ft</h5><br />
+        <form id="buynow-form">
+            <div class="input-field">
+                <input type="text" id="buynow-username" required />
+                <label for="buynow-username"> Name</label>
+              </div>
+          <div class="input-field">
+            <input type="email" id="buynow-email" required />
+            <label for="buynow-email">Email address</label>
+          </div>
+       
+          <div class="input-field">
+            <input type="number" id="buynow-phonenumber" required />
+            <label for="buynow-phonenumber" class="valign-wrapper">Phone Number</label>
+          </div>
+          <center><button class="btn yellow darken-2 z-depth-0">SUBMIT</button></center>
+          <p class="error pink-text center-align"></p>
+          <p>
+            <br>
+          </p>
+          </form>
+        </form>
+        </div>
+        </div>
+        </div>
+        
+          
+      </div>
+
+      
+       
+  
+  
+  
+  
+   <!--FOOTER-->
+   <footer class="page-footer  cyan darken-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">FARMSMART</h5>
+            <p class="grey-text text-lighten-4">Urban SmartFarming Platform</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Living Labs</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">FarmSMart Store</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">FarmWare</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2019 Copyright FARMSMART
+        </div>
+      </div>
+    </footer>
+   <!--FOOTER END-->
+    
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-functions.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-messaging.js"></script>
+
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD6i_2yvaDglbzSla0mmywm4M91B4nyYLs",
+    authDomain: "farmsmart-224515.firebaseapp.com",
+    databaseURL: "https://farmsmart-224515.firebaseio.com",
+    projectId: "farmsmart-224515",
+    storageBucket: "farmsmart-224515.appspot.com",
+    messagingSenderId: "199482702720"
+  };
+  firebase.initializeApp(config);
+  //Making Auth and FireStore References
+  const auth = firebase.auth();
+  const realtimedatabase = firebase.database();
+  const db = firebase.firestore();
+  const functions = firebase.functions();
+  const messaging = firebase.messaging();
+  // Add the public key generated from the console here.
+  messaging.usePublicVapidKey("BBNqNX9GknQtK4XW5PKmhUMV_ACm5Ve8a9qTGjVU2EWtky7oSVsW_stBsNwmrCQRrncacwvZ7VkF-x2XKlU9dZA");
+
+
+  //Update FireStore Setting
+  db.settings({timestampsInSnapshots: true})
+  </script>
+
+  
+  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/@moltin/sdk"></script>
+  
+  <script src="scripts/auth.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/motlin.js"></script>
+  <script src="scripts/fcm.js"></script>
+  <script src ="scripts/notify.js"></script>
+</body>
+</html>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
