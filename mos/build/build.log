@@ -1,0 +1,523 @@
+Handling lib "rpc-service-fs"...
+Handling lib "ca-bundle"...
+Handling lib "rpc-serviceSuccess, built mos/esp8266 version 1.0 (20210313-204434).
+Firmware saved to C:\mos\build\fw.zip
+om/mongoose-os-libs/rpc-service-fs"...
+ca-bundle: Does not exist, cloning from "https://github.com/mongoose-os-libs/ca-bundle"...
+Handling lib "rpc-uart"...
+Handling lib "mqtt"...
+rpc-service-config: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-service-config"...
+mqtt: Does not exist, cloning from "https://github.com/mongoose-os-libs/mqtt"...
+Handling lib "mjs"...
+mjs: Does not exist, cloning from "https://github.com/mongoose-os-libs/mjs"...
+rpc-uart: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-uart"...
+gcp: Does not exist, cloning from "https://github.com/mongoose-os-libs/gcp"...
+Handling lib "dht"...
+Handling lib "wifi"...
+wifi: Does not exist, cloning from "https://github.com/mongoose-os-libs/wifi"...
+dht: Does not exist, cloning from "https://github.com/mongoose-os-libs/dht"...
+Handling lib "core"...
+Handling lib "i2c"...
+core: Does not exist, cloning from "https://github.com/mongoose-os-libs/core"...
+i2c: Does not exist, cloning from "https://github.com/mongoose-os-libs/i2c"...
+Handling lib "adc"...
+adc: Does not exist, cloning from "https://github.com/mongoose-os-libs/adc"...
+mjs: Checking out 2.19.1...
+mjs: Done, hash e1076d2d60ec19450716af3c2605e4388e12b873
+mjs: Hash is updated:  -> e1076d2d60ec19450716af3c2605e4388e12b873
+mjs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs"
+rpc-service-config: Checking out 2.19.1...
+rpc-service-fs: Checking out 2.19.1...
+ca-bundle: Checking out 2.19.1...
+mqtt: Checking out 2.19.1...
+dht: Checking out 2.19.1...
+wifi: Checking out 2.19.1...
+core: Checking out 2.19.1...
+rpc-uart: Checking out 2.19.1...
+rpc-service-fs: Done, hash 5dea6ee11e623a0e827a750ee75111d9e15ae1b1
+core: Done, hash 98abe4a666879cc237784361441855bc48152462
+mqtt: Done, hash 2b43e81e4d063c06210f7cd5cfb43b24dbb57658
+ca-bundle: Done, hash 554b6acf2c2b456da2c3f954931d9570e86d162b
+wifi: Done, hash 11a208e7e6df2c47a5b8166a589217157aee9462
+rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
+dht: Done, hash 3392941cb081cc7051287303b64c837dabe52e21
+rpc-service-fs: Hash is updated:  -> 5dea6ee11e623a0e827a750ee75111d9e15ae1b1
+rpc-service-fs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs"
+rpc-uart: Done, hash 4c68e5d7b3eecb19ccc6128f111a118384ed20b4
+core: Hash is updated:  -> 98abe4a666879cc237784361441855bc48152462
+mqtt: Hash is updated:  -> 2b43e81e4d063c06210f7cd5cfb43b24dbb57658
+ca-bundle: Hash is updated:  -> 554b6acf2c2b456da2c3f954931d9570e86d162b
+core: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core"
+ca-bundle: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/ca-bundle"
+mqtt: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt"
+wifi: Hash is updated:  -> 11a208e7e6df2c47a5b8166a589217157aee9462
+wifi: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi"
+rpc-service-config: Hash is updated:  -> b30e187977d8dafcb4297cff60e036855a7ff531
+rpc-service-config: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config"
+dht: Hash is updated:  -> 3392941cb081cc7051287303b64c837dabe52e21
+dht: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht"
+rpc-uart: Hash is updated:  -> 4c68e5d7b3eecb19ccc6128f111a118384ed20b4
+rpc-uart: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart"
+gcp: Checking out 2.19.1...
+adc: Checking out 2.19.1...
+adc: Done, hash be5f8c8c7b1fc7c8b1abf44b97dd41248f47a2de
+gcp: Done, hash 99f0e1a910d35646ba5dde3a7efe3390310b3ddf
+adc: Hash is updated:  -> be5f8c8c7b1fc7c8b1abf44b97dd41248f47a2de
+adc: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc"
+gcp: Hash is updated:  -> 99f0e1a910d35646ba5dde3a7efe3390310b3ddf
+gcp: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp"
+i2c: Checking out 2.19.1...
+i2c: Done, hash cd740fa1b33b4b01bacc5a86a51fbe5d27c33f9c
+i2c: Hash is updated:  -> cd740fa1b33b4b01bacc5a86a51fbe5d27c33f9c
+i2c: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c"
+Handling lib "rpc-common"...
+Handling lib "vfs-common"...
+rpc-common: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-common"...
+vfs-common: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-common"...
+rpc-common: Checking out 2.19.1...
+vfs-common: Checking out 2.19.1...
+rpc-common: Done, hash f948357dde68e67bcf8347b9a9a49468c6ee5c4c
+vfs-common: Done, hash df19c4e68e7f0dddde27e9024f3168e30ab03c3d
+rpc-common: Hash is updated:  -> f948357dde68e67bcf8347b9a9a49468c6ee5c4c
+rpc-common: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common"
+vfs-common: Hash is updated:  -> df19c4e68e7f0dddde27e9024f3168e30ab03c3d
+vfs-common: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common"
+Handling lib "mongoose"...
+mongoose: Does not exist, cloning from "https://github.com/mongoose-os-libs/mongoose"...
+mongoose: Checking out 2.19.1...
+mongoose: Done, hash be8cbe06ddacb4539d43c1290b1326c399c1ed7d
+mongoose: Hash is updated:  -> be8cbe06ddacb4539d43c1290b1326c399c1ed7d
+mongoose: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mongoose"
+Handling lib "sntp"...
+sntp: Does not exist, cloning from "https://github.com/mongoose-os-libs/sntp"...
+sntp: Checking out 2.19.1...
+sntp: Done, hash f7f4c04b8ce1231d6fa3fda3e70a8f5a11e28220
+sntp: Hash is updated:  -> f7f4c04b8ce1231d6fa3fda3e70a8f5a11e28220
+sntp: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp"
+Handling lib "mbedtls"...
+mbedtls: Does not exist, cloning from "https://github.com/mongoose-os-libs/mbedtls"...
+mbedtls: Checking out 2.19.1...
+mbedtls: Done, hash 8216c1a8babe86b04f2930fa00217e440ed9624b
+mbedtls: Hash is updated:  -> 8216c1a8babe86b04f2930fa00217e440ed9624b
+mbedtls: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls"
+Handling lib "vfs-dev-part"...
+Handling lib "vfs-fs-lfs"...
+Handling lib "vfs-fs-spiffs"...
+vfs-fs-spiffs: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-fs-spiffs"...
+vfs-dev-part: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-dev-part"...
+vfs-fs-lfs: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-fs-lfs"...
+vfs-dev-part: Checking out 2.19.1...
+vfs-dev-part: Done, hash 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0
+vfs-dev-part: Hash is updated:  -> 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0
+vfs-dev-part: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part"
+vfs-fs-spiffs: Checking out 2.19.1...
+vfs-fs-lfs: Checking out 2.19.1...
+vfs-fs-spiffs: Done, hash 8317dc59356147918d15cb3258e2083cf20f4e3e
+vfs-fs-spiffs: Hash is updated:  -> 8317dc59356147918d15cb3258e2083cf20f4e3e
+vfs-fs-spiffs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs"
+vfs-fs-lfs: Done, hash 13857635705bd936a60ec98c2b1965656daa0bf8
+vfs-fs-lfs: Hash is updated:  -> 13857635705bd936a60ec98c2b1965656daa0bf8
+vfs-fs-lfs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs"
+The flag --module is not given for the module "mjs_module", going to use the repository
+mjs_module: Does not exist, cloning from "https://github.com/cesanta/mjs"...
+mjs_module: Checking out 2.19.1...
+mjs_module: Done, hash 4c870e584d2b2a538abcee5307c498cc37e7ef9d
+The flag --module is not given for the module "mbedtls_module", going to use the repository
+mbedtls_module: Does not exist, cloning from "https://github.com/mongoose-os/mbedtls"...
+mbedtls_module: Checking out 2.16.6-cesanta1...
+mbedtls_module: Done, hash 1e5cc8512a64afaa15f4adc7b8c91581e252e087
+The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Does not exist, cloning from "https://github.com/cesanta/mongoose-os"...
+mongoose-os: Checking out 2.19.1...
+mongoose-os: Done, hash d52032f9b27836ec0ec00c6fc5cb49403e08c7cf
+Successfully fetched prebuilt binary for "mongoose" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/libmongoose-esp8266-2.19.1.a"
+Sources: [/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/src/main.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mgos_deps_init.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src/esp8266/esp_adc.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/mgos_mbedtls.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266/esp_aes.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266/esp_md5.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266/esp_sha1.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes_atca.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aesni.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/arc4.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aria.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/asn1parse.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/asn1write.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/base64.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/bignum.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/blowfish.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/camellia.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ccm.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/certs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/chacha20.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/chachapoly.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/cipher.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/cipher_wrap.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/cmac.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ctr_drbg.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/debug.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/des.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/dhm.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecdh.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecdsa.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecjpake.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecp.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecp_atca.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecp_curves.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/entropy.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/entropy_poll.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/error.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/gcm.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/havege.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/hkdf.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/hmac_drbg.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md2.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md4.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md5.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md_wrap.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/memory_buffer_alloc.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/net_sockets.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/nist_kw.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/oid.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/padlock.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pem.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pk.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pk_wrap.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkcs11.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkcs12.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkcs5.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkparse.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkwrite.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/platform.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/platform_util.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/poly1305.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ripemd160.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/rsa.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/rsa_internal.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/sha1.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/sha256.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/sha512.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_cache.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_ciphersuites.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_cli.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_cookie.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_srv.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_ticket.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_tls.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/threading.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/timing.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/version.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/version_features.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_create.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_crl.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_crt.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_csr.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509write_crt.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509write_csr.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/xtea.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/mgos_vfs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/mgos_vfs_dev.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/mgos_vfs_internal.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266/esp_fs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/src/mgos_vfs_dev_part.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs/lfs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs/lfs_util.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1/lfs1.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1/lfs1_util.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/mgos_core.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/esp8266/esp_rboot.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/src/mgos_dht.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src/mgos_mqtt.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src/mgos_mqtt_conn.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp/src/mgos_sntp.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/src/mgos_gcp.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/mgos_i2c_master.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/gpio/mgos_i2c_gpio_master.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/src/mos_mjs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/src/esp8266_mjs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mg_rpc.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mg_rpc_channel.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mg_rpc_channel_http.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mgos_rpc.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/src/mgos_service_config.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs/src/mgos_service_fs.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/src/mgos_rpc_channel_uart.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/mgos_wifi.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/mjs_wifi.c /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/esp8266/esp_wifi.c]
+Include dirs: [/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mongoose/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/spiffs /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/include /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/include/esp8266]
+Binary libs: [/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/libmongoose-esp8266-2.19.1.a]
+Building...
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853" to "/app"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os" to "/mongoose-os"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/gpio" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/gpio"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mongoose/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mongoose/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/spiffs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/spiffs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/include" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/ca-bundle/fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/ca-bundle/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/fs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen" to "/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen"
+Docker arguments: run --name mos_build_2021-03-13T20-44-23-00_5046895178431472346 --rm -i -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os:/mongoose-os -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853:/app -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/gpio:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/gpio -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/ca-bundle/fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/ca-bundle/fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/spiffs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include/spiffs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mongoose/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mongoose/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/include -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/src:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/src -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/include:/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/include --user 0:0 docker.io/mgos/esp8266-build:3.0.0_158bb7a5-r1 /bin/bash -c nice make '-j' '8' '-C' '/app' '-f' '/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mongoose-os/platforms/esp8266/Makefile.build' 'all' 'MGOS_VARS_FILE=/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/vars.mk'
+make: Entering directory '/app'
+  MKDIR /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/fw
+  MKDIR /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp
+CC esptool2.c
+gcc -O2 -Wall -c esptool2.c -o /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esptool2.o
+CC esptool2_elf.c
+gcc -O2 -Wall -c esptool2_elf.c -o /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esptool2_elf.o
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mgos_config.c
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mgos_ro_vars.c
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/ffi_exports.c
+  GEN   /mongoose-os/platforms/esp8266/ld/non_os.ld (0xffff0 @ 0x40200010) -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/0x100000.ld
+LD /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esptool2
+gcc -o /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esptool2 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esptool2.o /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esptool2_elf.o
+  CC    /mongoose-os/platforms/esp8266/src/esp_cache.c
+CC rboot-stage2a.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/src/main.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mgos_deps_init.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/src/esp8266/esp_adc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/mgos_mbedtls.c
+LD /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/rboot/rboot-stage2a.elf
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266/esp_aes.c
+E2 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/rboot-hex2a.h
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266/esp_md5.c
+CC rboot.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mbedtls/src/esp8266/esp_sha1.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes_atca.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aesni.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/arc4.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aria.c
+LD /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/rboot/rboot.elf
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:359:23: warning: 'RCON' defined but not used [-Wunused-const-variable=]
+  359 | static const uint32_t RCON[10] =
+      |                       ^~~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:349:23: warning: 'RT3' defined but not used [-Wunused-const-variable=]
+  349 | static const uint32_t RT3[256] = { RT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:345:23: warning: 'RT2' defined but not used [-Wunused-const-variable=]
+  345 | static const uint32_t RT2[256] = { RT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:341:23: warning: 'RT1' defined but not used [-Wunused-const-variable=]
+  341 | static const uint32_t RT1[256] = { RT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:335:23: warning: 'RT0' defined but not used [-Wunused-const-variable=]
+  335 | static const uint32_t RT0[256] = { RT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:228:28: warning: 'RSb' defined but not used [-Wunused-const-variable=]
+  228 | static const unsigned char RSb[256] =
+      |                            ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:218:23: warning: 'FT3' defined but not used [-Wunused-const-variable=]
+  218 | static const uint32_t FT3[256] = { FT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:214:23: warning: 'FT2' defined but not used [-Wunused-const-variable=]
+  214 | static const uint32_t FT2[256] = { FT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:210:23: warning: 'FT1' defined but not used [-Wunused-const-variable=]
+  210 | static const uint32_t FT1[256] = { FT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:204:23: warning: 'FT0' defined but not used [-Wunused-const-variable=]
+  204 | static const uint32_t FT0[256] = { FT };
+      |                       ^~~
+/data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/aes.c:97:28: warning: 'FSb' defined but not used [-Wunused-const-variable=]
+   97 | static const unsigned char FSb[256] =
+      |                            ^~~
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/asn1parse.c
+E2 /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/rboot/rboot.bin
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/asn1write.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/base64.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/bignum.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/blowfish.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/camellia.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ccm.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/certs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/chacha20.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/chachapoly.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/cipher.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/cipher_wrap.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/cmac.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ctr_drbg.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/debug.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/des.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/dhm.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecdh.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecdsa.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecjpake.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecp.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecp_atca.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ecp_curves.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/entropy.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/entropy_poll.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/error.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/gcm.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/havege.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/hkdf.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/hmac_drbg.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md2.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md4.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md5.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/md_wrap.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/memory_buffer_alloc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/nist_kw.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/net_sockets.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/oid.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/padlock.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pem.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pk.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pk_wrap.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkcs11.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkcs12.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkcs5.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkparse.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/pkwrite.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/platform.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/platform_util.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/poly1305.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ripemd160.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/rsa.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/rsa_internal.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/sha1.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/sha256.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/sha512.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_cache.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_ciphersuites.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_cli.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_cookie.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_srv.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_ticket.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/ssl_tls.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/threading.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/timing.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/version.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/version_features.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_create.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_crl.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_crt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509_csr.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509write_crt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/x509write_csr.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mbedtls/library/xtea.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/mgos_vfs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/mgos_vfs_dev.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/mgos_vfs_internal.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266/esp_fs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs/lfs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs/lfs_util.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1/lfs1.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/mgos_core.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/core/src/esp8266/esp_rboot.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/src/mgos_dht.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src/mgos_mqtt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/src/mgos_mqtt_conn.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/sntp/src/mgos_sntp.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/src/mgos_gcp.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/mgos_i2c_master.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/src/gpio/mgos_i2c_gpio_master.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/src/mos_mjs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/src/esp8266_mjs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mg_rpc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mg_rpc_channel.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mg_rpc_channel_http.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/src/mgos_rpc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-config/src/mgos_service_config.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-service-fs/src/mgos_service_fs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/mgos_wifi.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/mjs_wifi.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/src/esp8266/esp_wifi.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/ffi_exports.c
+  CC    /mongoose-os/src/common/cs_file.c
+  CC    /mongoose-os/src/common/cs_hex.c
+  CC    /mongoose-os/src/common/cs_rbuf.c
+  CC    /mongoose-os/src/mgos_config_util.c
+  CC    /mongoose-os/src/mgos_core_dump.c
+  CC    /mongoose-os/src/mgos_dlsym.c
+  CC    /mongoose-os/src/mgos_event.c
+  CC    /mongoose-os/src/mgos_file_utils.c
+  CC    /mongoose-os/src/mgos_gpio.c
+  CC    /mongoose-os/src/mgos_hw_timers.c
+  CC    /mongoose-os/src/mgos_init.c
+  CXX    /mongoose-os/src/mgos_json_utils.cpp
+  CC    /mongoose-os/src/mgos_time.c
+  CC    /mongoose-os/src/mgos_timers.c
+  CXX    /mongoose-os/src/mgos_timers.cpp
+  CC    /mongoose-os/src/mgos_mmap_esp.c
+  CC    /mongoose-os/src/mgos_sys_config.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mgos_config.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mgos_ro_vars.c
+  CC    /mongoose-os/src/mgos_system.c
+  CXX    /mongoose-os/src/mgos_system.cpp
+  CC    /mongoose-os/src/mgos_uart.c
+  CC    /mongoose-os/src/mgos_utils.c
+  CXX    /mongoose-os/src/mgos_utils.cpp
+  CC    /mongoose-os/src/common/cs_crc32.c
+  CC    /mongoose-os/platforms/esp8266/rboot/rboot/appcode/rboot-bigflash.c
+  CC    /mongoose-os/platforms/esp8266/rboot/rboot/appcode/rboot-api.c
+  CC    /mongoose-os/src/common/json_utils.c
+  CC    /mongoose-os/src/umm_malloc/umm_malloc.c
+  CC    /mongoose-os/src/frozen/frozen.c
+  CXX    /mongoose-os/src/error_codes.cpp
+  CXX    /mongoose-os/src/status.cpp
+  CC    /mongoose-os/platforms/esp8266/src/esp_config.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_coredump.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_crypto.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_debug.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_exc.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_flash_writer.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_gpio.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_hal.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_heap_trace.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_hw_timers.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_hw_wdt.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_libc.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_main.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_periph.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_uart.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_umm_malloc.c
+  CC    /mongoose-os/src/mgos_debug.c
+  CC    /mongoose-os/src/mgos_net.c
+  CC    /mongoose-os/platforms/esp8266/src/esp_exc_non_os.c
+  CC    /mongoose-os/src/mgos_bitbang.c
+  AS    /mongoose-os/platforms/esp8266/src/esp_exc_vectors.S -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esp_exc_vectors.S.o
+  AS    /mongoose-os/platforms/esp8266/src/esp_nsleep100.S -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/esp_nsleep100.S.o
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/conf0.json -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/ca-bundle/fs/ca.pem -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_bitbang.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_config.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_events.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_gpio.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_http.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_log.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_net.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_sys.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_timer.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/api_uart.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/fs/polyfill.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib/api_dataview.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib/api_file.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/modules/mjs/mjs/lib/api_math.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/adc/mjs_fs/api_adc.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/dht/mjs_fs/api_dht.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mqtt/mjs_fs/api_mqtt.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/gcp/mjs_fs/api_gcp.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/i2c/mjs_fs/api_i2c.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/rpc-common/mjs_fs/api_rpc.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/wifi/mjs_fs/api_wifi.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/fs/api_arch_uart.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/deps/mjs/esp8266/fs/api_esp8266.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/fs/index.html -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/fs/init.js -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 {bs:4096,ps:256,es:4096} /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fs -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp/fs.bin
+     FS params: size=262144, bs=4096, ps=256, es=4096
+       Adding init.js: 1601
+       Adding api_net.js: 5122
+       Adding api_gcp.js: 230
+       Adding api_i2c.js: 4880
+       Adding api_wifi.js: 1020
+       Adding api_http.js: 3812
+       Adding api_events.js: 3857
+       Adding api_config.js: 2170
+       Adding api_mqtt.js: 2927
+       Adding api_rpc.js: 2941
+       Adding api_file.js: 2105
+       Adding api_math.js: 1890
+       Adding api_gpio.js: 3571
+       Adding api_timer.js: 1750
+       Adding api_uart.js: 5772
+       Adding api_bitbang.js: 815
+       Adding api_adc.js: 803
+       Adding api_arch_uart.js: 651
+       Adding index.html: 70
+       Adding api_sys.js: 1652
+       Adding api_log.js: 2005
+       Adding api_esp8266.js: 231
+       Adding api_dht.js: 1404
+       Adding polyfill.js: 1415
+       Adding ca.pem: 31787
+       Adding api_dataview.js: 7433
+       Adding conf0.json: 3
+     FS stats : space total=233681, used=102157, free=131524
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mg_build_info.c
+  AR    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/mongoose-os.a
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/mg_build_info.c
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/build_info.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/gen/build_info.c
+  LD    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/mos.elf
+  FW    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/mos.elf -> /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/mos.bin
+  GEN    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp/manifest.json
+  ZIP    /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/fw/mos-esp8266-last.zip
+     Adding /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp/esp_init_data_default_v08.bin
+     Adding /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp/fs.bin
+     Adding /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp/mos.bin
+     Adding /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/objs/fw_temp/rboot.bin
+  Built mos/esp8266 version 1.0 (20210313-204434)
+make: Leaving directory '/app'
+Success, built mos/esp8266 version 1.0 (20210313-204434).
+Firmware saved to /data/fwbuild-volumes/2.19.1/apps/mos/esp8266/build_contexts/build_ctx_858687853/build/fw.zip
